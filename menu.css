@@ -1,0 +1,26 @@
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(136, 136, 187);
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+label{
+    font-size: 30px;
+    background-color: rgb(200, 200, 230);
+}
+
+@media(width<600px){
+
+ul{
+    flex-direction: column;
+    display: none;
+}
+.checar:checked ~.nav{
+    display: flex;
+}
+}

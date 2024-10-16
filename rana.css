@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   min-height:100vh;
+    flex-direction: column;
+  
+}
+.cajacontenedora{
+    border: 15px solid;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(42, 201, 230);
+    position: relative;
+
+    
+}
+
+.rana{
+    background-color: rgb(13, 151, 75);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition-property: transform;
+    transition-duration: 1s;
+    transform-origin: 150ms;
+}
+.rene{
+    position: relative;
+    left: 300px;
+}
+.rene:hover{
+    transform: translatex(100px);
+   
+}
+.pepe{
+    border: 2px solid;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+.pepe:hover{
+    transform: rotate(70deg);
+    
+}
+.marta{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.marta:hover{
+    scale: 0.5;
+
+}
+.ranita:hover{
+    transform: skewX(15deg);
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fondocontransparencia{
+width: 100vw;
+height: 100vh;
+background-image: linear-gradient(rgba(117, 48, 48, 0.733),rgba(67, 88, 119, 0.733)),url("th.jpg");
+background-attachment: fixed;
+/*background-image:url("th.jpg");
+background-repeat: no-repeat;
+background-size: contai;
+background-position: center;*/
+
+
+}
+p{
+    margin: 20px;
+    line-height: 24px;
+    font-size: 20px;
+}
